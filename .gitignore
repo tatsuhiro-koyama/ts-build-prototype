@@ -1,0 +1,23 @@
+# Build/Dependencies
+node_modules
+dist
+storybook-static
+.awcache
+
+# Misc
+*.log
+
+# OS Specific Files
+.DS_Store
+
+# Editor Configs
+.idea
+*.iml
+.vscode/*
+!.vscode/settings.json
+
+# Coverage
+.nyc_output
+coverage
+reports
+

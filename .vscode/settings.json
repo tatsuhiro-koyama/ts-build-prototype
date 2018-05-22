@@ -1,0 +1,8 @@
+{
+  "editor.formatOnSave": true,
+  "prettier.eslintIntegration": true,
+  "prettier.singleQuote": true,
+  "[json]": {
+    "editor.formatOnSave": false
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case"
+    ],
+    "whitespace": [true, "check-curly", "check-brace"],
+    "indent": [true, "spaces", 2],
+    "no-console": [false],
+    "no-implicit-dependencies": [true, "dev"],
+    "ordered-imports": [false],
+    "no-eval": false
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jasmine": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "experimentalObjectRestSpread": true,
+      "commaDangle": true,
+      "impliedStrict": true
+    }
+  }
+}
