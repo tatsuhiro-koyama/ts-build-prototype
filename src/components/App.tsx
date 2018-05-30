@@ -5,7 +5,7 @@ import Header from './02_props/Header';
 import Footer from './01_stateless/Footer';
 import MainImage from './01_stateless/MainImage';
 import Menu from './03_stateful/Menu';
-import ItemList from './04_stateful_lifecycle/ItemList';
+import ItemList from './04_stateful-lifecycle/ItemList';
 
 const Section = styled.div`
   position: fixed;

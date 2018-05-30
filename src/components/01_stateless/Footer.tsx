@@ -20,12 +20,12 @@ const Copylight = styled.span`
   margin: 0;
 `;
 
-const Footer: React.SFC<{}> = () => {
-  return (
-    <Section>
-      <Copylight>copylight</Copylight>
-    </Section>
-  );
-};
-
-export default Footer;
+export default class Footer extends React.Component<{}> {
+  public render() {
+    return (
+      <Section>
+        <Copylight>copylight</Copylight>
+      </Section>
+    );
+  }
+}
