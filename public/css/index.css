@@ -1,0 +1,45 @@
+/* normalize */
+*,
+input[type='search'] {
+  box-sizing: border-box;
+}
+
+/* 選択要素のハイライトを無効化 */
+input[type='text'],
+input[type='password'],
+textarea,
+select {
+  outline: none;
+}
+
+* {
+  /* css animation でのちらつき対策 */
+  backface-visibility: hidden;
+  /* tap時のハイライトを無効化 */
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* focus時のハイライトを無効化 */
+*:focus {
+  outline: none;
+}
+
+html {
+  /* fontsize を 1rem == 10px */
+  font-size: 62.5%;
+  height: 100%;
+}
+
+/* body */
+
+body {
+  height: 100%;
+  position: relative;
+  min-height: 100%;
+}
+
+#root {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
